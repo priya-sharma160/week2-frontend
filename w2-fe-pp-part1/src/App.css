@@ -1,6 +1,14 @@
 .card{
-  border: 1px solid black;
+  border: 2px solid black;
   display: flex;
   padding: 10px;
   margin: 10px;
+}
+
+.info{
+  margin-left: 4px;
+}
+
+.fonts{
+  font-size: 25px;
 }

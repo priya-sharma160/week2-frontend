@@ -5,12 +5,12 @@ const IdCard = ({ lastName, firstName, gender, height, birth, picture }) => {
     <div className="id-card">
       <div className="card">
         <div><img src={picture} alt="Profile" /></div>
-        <div>
-        <p><strong>lastName:</strong> {lastName}</p>
-        <p><strong>firstName:</strong> {firstName}</p>
-        <p><strong>Gender:</strong> {gender}</p>
-        <p><strong>Height:</strong> {height}</p>
-        <p><strong>birth:</strong> {new Date(birth).toDateString()}</p>
+        <div className="info">
+          <div><b>First Name:</b> {firstName}</div>
+        <div><strong>Last Name:</strong> {lastName}</div>
+        <div><strong>Gender:</strong> {gender}</div>
+        <div><strong>Height:</strong> {height}</div>
+        <div><strong>Birth:</strong> {new Date(birth).toDateString()}</div>
         
         </div>
         
